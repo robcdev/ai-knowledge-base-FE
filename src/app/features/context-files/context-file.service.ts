@@ -15,7 +15,7 @@ export class ContextFileService {
    * @returns {Observable<ContextFile[]>} An observable of ContextFile array
    */
   getContextFiles(): Observable<ContextFile[]> {
-    return this.http.get<ContextFile[]>('/mocks/context-files.json');
+    return this.http.get<ContextFile[]>('mocks/context-files.json');
   }
 
   /**
