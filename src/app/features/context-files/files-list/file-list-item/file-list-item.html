@@ -1,16 +1,18 @@
-<app-card [title]="item()?.name || ''">
-  <div class="flex flex-1 items-center justify-between">
-    <div class="flex flex-1 flex-col">
+@if (item(); as file) {
+  <app-card [title]="file?.name ?? ''">
+    <div class="flex flex-1 items-center justify-between">
+      <div class="flex flex-1 flex-col">
+        <div>
+          <b>Summary:</b>
+          {{ file?.summary ?? '' }}
+        </div>
+      </div>
       <div>
-        <b>Summary:</b>
-        {{ item()?.summary }}
+        <app-context-menu
+          [alignment]="'start'"
+          [menuItems]="menuItems"
+        ></app-context-menu>
       </div>
     </div>
-    <div>
-      <app-context-menu
-        [alignment]="'start'"
-        [menuItems]="menuItems"
-      ></app-context-menu>
-    </div>
-  </div>
-</app-card>
+  </app-card>
+}

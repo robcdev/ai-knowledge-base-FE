@@ -20,7 +20,7 @@ export class FileListItem {
   private dialog: MatDialog = inject(MatDialog);
   private readonly contextFilesManagerService = inject(ContextFilesManagerService);
 
-  item = input.required<ContextFile>();
+  item = input<ContextFile | null>(null);
 
   protected menuItems: MenuItem[] = [
     {
@@ -36,7 +36,11 @@ export class FileListItem {
   ];
 
   deleteFile(): void {
-    console.log('Delete file clicked');
+    const file = this.item();
+    if (!file) {
+      return;
+    }
+
     this.dialog
       .open(ConfirmDialog, {
         width: '360px',
@@ -49,7 +53,7 @@ export class FileListItem {
       .afterClosed()
       .subscribe((confirmed: boolean) => {
         if (confirmed) {
-          this.performDelete();
+          this.performDelete(file.id);
         }
       });
   }
@@ -58,12 +62,15 @@ export class FileListItem {
    * Deletes the context file with the given ID from the store.
    * This function is called when the user confirms deletion in the confirmation dialog.
    */
-  private performDelete(): void {
-    this.contextFilesStore.deleteContextFile(this.item().id);
+  private performDelete(id: string): void {
+    this.contextFilesStore.deleteContextFile(id);
   }
 
   updateFile(): void {
     const file = this.item();
+    if (!file) {
+      return;
+    }
     this.contextFilesManagerService.setSelectedItemId(file.id);
     this.contextFilesManagerService
       .open({ type: 'update', file })

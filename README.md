@@ -1,4 +1,4 @@
-# Web
+# AI Knowledge Base - Frontend
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.1.
 
@@ -7,7 +7,7 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 To start a local development server, run:
 
 ```bash
-ng serve
+npm run dev
 ```
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
@@ -28,13 +28,50 @@ ng generate --help
 
 ## Building
 
-To build the project run:
+To build the project for production:
 
 ```bash
-ng build
+npm run build
+```
+
+To build for GitHub Pages deployment:
+
+```bash
+npm run build:gh-pages
 ```
 
 This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+
+## Deployment to GitHub Pages
+
+This project is configured for automatic deployment to GitHub Pages using GitHub Actions.
+
+### Setup Steps
+
+1. **Enable GitHub Pages** in your repository settings:
+   - Go to `Settings` > `Pages`
+   - Under "Source", select `GitHub Actions`
+
+2. **Push your code** to the `master` branch:
+   ```bash
+   git add .
+   git commit -m "Initial commit"
+   git push origin master
+   ```
+
+3. **Automatic deployment** will trigger on every push to `master`
+   - The workflow builds the app with the correct base href
+   - Deploys to GitHub Pages automatically
+   - Your app will be available at: `https://[your-username].github.io/ai-knowledge-base-FE/`
+
+### Manual Deployment
+
+If you prefer to deploy manually:
+
+```bash
+npm run build:gh-pages
+# Then deploy the contents of dist/web/browser/ to your hosting service
+```
 
 ## Running unit tests
 
