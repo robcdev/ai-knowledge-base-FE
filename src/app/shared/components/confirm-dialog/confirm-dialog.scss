@@ -1,0 +1,7 @@
+// Style the Angular Material dialog surface for the confirm dialog.
+:host {
+  ::ng-deep .confirm-dialog-panel .mat-mdc-dialog-surface {
+    background-color: var(--color-dark-bg, #1e2430);
+    color: #f8fafc;
+  }
+}

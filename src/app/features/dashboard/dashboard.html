@@ -1,0 +1,24 @@
+<div class="p-8">
+  <h1 class="text-3xl sm:text-3xl font-bold mb-6 text-white">Dashboard</h1>
+  <p class="mb-8 text-2xl">Dummy dashboard</p>
+  <div class="mb-8">
+    <app-card [title]="'✨ NEW FEATURES IN THE LATEST VERSION'">
+      <ul class="list-disc list-inside text-gray-400 space-y-1">
+        <li>Dark mode</li>
+        <li>Advanced Search Filters</li>
+        <li>Add Context Files</li>
+      </ul>
+    </app-card>
+  </div>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <app-card [title]="'Program'">
+      <p class="text-gray-400">Your last program</p>
+    </app-card>
+    <app-card [title]="'Context Files'">
+      <p class="text-gray-400">Recently added</p>
+    </app-card>
+    <app-card [title]="'Configuration'">
+      <p class="text-gray-400">Configuration</p>
+    </app-card>
+  </div>
+</div>

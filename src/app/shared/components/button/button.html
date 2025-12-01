@@ -1,0 +1,7 @@
+<div
+  class="w-full flex items-center justify-center text-center text-gray-300 hover:cursor-pointer bg-dark-bg border border-bg-dark-bg p-2 rounded hover:bg-dark-bg-secondary hover:border-gray-300 transition"
+  [class.bg-gray-600]="disabled()"
+  (click)="onClick()"
+>
+  <ng-content></ng-content>
+</div>

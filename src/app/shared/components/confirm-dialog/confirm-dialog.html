@@ -1,0 +1,12 @@
+<h2 class="text-gray-300 text-3xl p-4">{{ data.title }}</h2>
+
+<mat-dialog-content>
+  <p class="text-gray-300">{{ data.message }}</p>
+</mat-dialog-content>
+
+<mat-dialog-actions [align]="'end'">
+  <div class="flex gap-2">
+    <app-button (clicked)="onCancel()">Cancel</app-button>
+    <app-button (clicked)="onConfirm()">Delete</app-button>
+  </div>
+</mat-dialog-actions>

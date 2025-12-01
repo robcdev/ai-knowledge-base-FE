@@ -1,0 +1,57 @@
+<div
+  class="fixed inset-0 z-1000 bg-black/40 flex items-center justify-center px-4"
+  (click)="onCancel()"
+>
+  <div
+    class="bg-dark-bg text-slate-100 p-6 rounded-lg w-[500px] min-w-[500px] max-w-[500px] h-[450px] shadow-2xl border border-slate-700"
+    (click)="$event.stopPropagation()"
+  >
+    @if (request()?.type === 'create') {
+      <h2 class="mt-0 mb-4 text-2xl font-semibold text-slate-100">Add a file or URL</h2>
+
+      <div class="flex gap-2 mb-4">
+        <app-button (clicked)="setMode('file')"> Upload file </app-button>
+        <app-button (clicked)="setMode('url')">Paste URL</app-button>
+      </div>
+
+      <div class="flex flex-col gap-4 text-sm text-slate-100">
+        @if (mode() === 'file') {
+          <label class="flex flex-col gap-2">
+            <span class="font-medium">Choose a file:</span>
+            <input
+              #fileInput
+              type="file"
+              class="rounded border border-slate-600 bg-slate-800/80 px-3 py-2 text-sm text-slate-100 shadow-sm file:mr-4 file:rounded file:border-0 file:bg-slate-700 file:px-3 file:py-2 file:text-sm file:font-medium file:text-slate-100 hover:file:bg-slate-600 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-400/60"
+              (change)="onFileChange($event)"
+            />
+          </label>
+
+          @if (selectedFile()) {
+            <p class="text-slate-300">
+              Selected: <strong>{{ selectedFile()?.name }}</strong>
+            </p>
+          }
+        } @else {
+          <label class="flex flex-col gap-2">
+            <span class="font-medium">URL:</span>
+            <input
+              type="url"
+              class="rounded border border-slate-600 bg-slate-800/80 px-3 py-2 text-sm text-slate-100 shadow-sm focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-400/60"
+              [ngModel]="url()"
+              (ngModelChange)="onUrlChange($event)"
+              placeholder="https://example.com/..."
+            />
+          </label>
+        }
+      </div>
+    } @else {
+      <h2 class="mt-0 mb-4 text-2xl font-semibold text-slate-100">Update a file or URL</h2>
+      <div>Update file name , url or summary or URL HERE</div>
+    }
+
+    <div class="mt-6 flex justify-end gap-2">
+      <app-button (clicked)="onCancel()">Cancel</app-button>
+      <app-button type="button" [disabled]="!canSave()" (clicked)="onSave()">Save</app-button>
+    </div>
+  </div>
+</div>

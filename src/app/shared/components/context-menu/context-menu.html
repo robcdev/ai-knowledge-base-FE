@@ -1,0 +1,30 @@
+<button
+  type="button"
+  [cdkMenuTriggerFor]="menu"
+  class="hover:cursor-pointer rounded-2xl hover:bg-dark-bg-secondary p-3 focus:outline-none"
+  aria-haspopup="menu"
+>
+  <fa-icon [icon]="faEllipsisVertical"></fa-icon>
+</button>
+
+<ng-template #menu>
+  <div
+    cdkMenu
+    class="absolute py-3 px-2 top-full mt-1 text-gray-300 border border-bg-dark-border min-w-64 rounded-xl bg-dark-bg-secondary shadow-lg z-50 overflow-hidden animate-menu-in"
+    [ngClass]="{
+      '-left-48': alignment() === 'start',
+      'left-4': alignment() === 'end',
+    }"
+  >
+    @for (item of menuItems(); track item.label) {
+      <button
+        cdkMenuItem
+        class="w-full text-left hover:cursor-pointer px-4 py-2 hover:bg-gray-700 rounded-xl"
+        (click)="item.action()"
+      >
+        <fa-icon [icon]="item.icon" class="w-4 mr-2"></fa-icon>
+        {{ item.label }}
+      </button>
+    }
+  </div>
+</ng-template>

@@ -1,0 +1,362 @@
+[
+  {
+    "id": "357bd01e-ed27-45c8-bcf4-018f7436ac1c",
+    "name": "product-requirements.pdf",
+    "size": 245760,
+    "uploadDate": "2024-11-15T09:30:00Z",
+    "summary": "Product requirements document for the new e-commerce platform including user stories, functional specifications, and acceptance criteria for MVP features.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/product-requirements.pdf",
+    "resourceMode": "file"
+  },
+  {
+    "id": "96b5b9bc-8014-40ef-9590-fa6e25c8672b",
+    "name": "api-documentation.md",
+    "size": 128000,
+    "uploadDate": "2024-11-16T14:22:00Z",
+    "summary": "REST API documentation covering authentication endpoints, user management, and payment processing with example requests and responses.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/api-documentation.md",
+    "resourceMode": "url"
+  },
+  {
+    "id": "36e8d897-edda-4038-b340-16d332060d55",
+    "name": "database-schema.sql",
+    "size": 89600,
+    "uploadDate": "2024-11-17T10:15:00Z",
+    "summary": "PostgreSQL database schema definitions including tables for users, products, orders, and relationships with indexing strategies.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/database-schema.sql",
+    "resourceMode": "file"
+  },
+  {
+    "id": "bbb98d72-aee6-4e2d-bb0e-942ac621a010",
+    "name": "ui-design-system.pdf",
+    "size": 3145728,
+    "uploadDate": "2024-11-18T16:45:00Z",
+    "summary": "Comprehensive design system documentation with color palettes, typography guidelines, component library, and accessibility standards.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/ui-design-system.pdf",
+    "resourceMode": "file"
+  },
+  {
+    "id": "3cb79765-fa1e-4422-8ffb-c53e3c6db001",
+    "name": "sprint-retrospective.docx",
+    "size": 52480,
+    "uploadDate": "2024-11-19T11:00:00Z",
+    "summary": "Sprint 12 retrospective notes covering team achievements, blockers, action items, and process improvements for next iteration.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/sprint-retrospective.docx",
+    "resourceMode": "file"
+  },
+  {
+    "id": "d33d5cf1-6039-42f7-8674-3209b77e8a7f",
+    "name": "security-audit-report.pdf",
+    "size": 512000,
+    "uploadDate": "2024-11-20T08:30:00Z",
+    "summary": "Q4 security audit findings including vulnerability assessments, penetration test results, and recommended remediation steps.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/security-audit-report.pdf",
+    "resourceMode": "file"
+  },
+  {
+    "id": "b0de9b1c-8aec-44f0-a6c8-4ee14f62fd06",
+    "name": "user-research-findings.pdf",
+    "size": 1048576,
+    "uploadDate": "2024-11-21T13:20:00Z",
+    "summary": "User interview insights from 50 participants highlighting pain points, feature requests, and usability improvements for checkout flow.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/user-research-findings.pdf",
+    "resourceMode": "file"
+  },
+  {
+    "id": "83e03221-a6df-49b7-be98-e4210baddfec",
+    "name": "deployment-guide.md",
+    "size": 76800,
+    "uploadDate": "2024-11-22T15:10:00Z",
+    "summary": "Step-by-step deployment instructions for production environment including CI/CD pipeline setup, environment variables, and rollback procedures.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/deployment-guide.md",
+    "resourceMode": "url"
+  },
+  {
+    "id": "02953801-c3e4-47aa-9de2-ba1a3e60a4c4",
+    "name": "architecture-diagram.png",
+    "size": 2097152,
+    "uploadDate": "2024-11-23T09:45:00Z",
+    "summary": "System architecture overview showing microservices, databases, message queues, caching layers, and external API integrations.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/architecture-diagram.png",
+    "resourceMode": "file"
+  },
+  {
+    "id": "e58a7224-f29f-4a8f-b550-fc1f68e01894",
+    "name": "marketing-strategy.pptx",
+    "size": 4194304,
+    "uploadDate": "2024-11-24T10:30:00Z",
+    "summary": "Q1 2025 marketing campaign strategy including target demographics, channel mix, budget allocation, and KPI metrics.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/marketing-strategy.pptx",
+    "resourceMode": "file"
+  },
+  {
+    "id": "3ccf2af4-9e20-4fbd-8a15-cf23e351a53a",
+    "name": "code-review-checklist.md",
+    "size": 34560,
+    "uploadDate": "2024-11-25T14:00:00Z",
+    "summary": "Comprehensive code review guidelines covering style conventions, testing requirements, security checks, and performance considerations.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/code-review-checklist.md",
+    "resourceMode": "url"
+  },
+  {
+    "id": "937f04db-ce5c-45ab-be35-6c0cc4941397",
+    "name": "customer-feedback.csv",
+    "size": 156800,
+    "uploadDate": "2024-11-26T11:25:00Z",
+    "summary": "Aggregated customer feedback data from 500+ surveys including NPS scores, feature ratings, and verbatim comments.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/customer-feedback.csv",
+    "resourceMode": "url"
+  },
+  {
+    "id": "5fc43aa7-52f1-47ba-997c-f41dfbbb1587",
+    "name": "onboarding-guide.pdf",
+    "size": 819200,
+    "uploadDate": "2024-11-27T08:15:00Z",
+    "summary": "New employee onboarding documentation covering company culture, team structure, development environment setup, and first-week tasks.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/onboarding-guide.pdf",
+    "resourceMode": "file"
+  },
+  {
+    "id": "841d5c1b-d1e3-4cb2-a3f5-27794d164582",
+    "name": "testing-strategy.docx",
+    "size": 98304,
+    "uploadDate": "2024-11-28T16:30:00Z",
+    "summary": "QA testing strategy outlining unit test coverage goals, integration testing approach, E2E test scenarios, and automation framework.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/testing-strategy.docx",
+    "resourceMode": "file"
+  },
+  {
+    "id": "5c98cbe5-198a-42ec-94e6-29c06897c73e",
+    "name": "performance-metrics.xlsx",
+    "size": 204800,
+    "uploadDate": "2024-11-29T09:00:00Z",
+    "summary": "Application performance metrics dashboard showing response times, throughput, error rates, and resource utilization over last quarter.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/performance-metrics.xlsx",
+    "resourceMode": "file"
+  },
+  {
+    "id": "722ad363-bfb4-4d70-9838-e57e13e86020",
+    "name": "competitive-analysis.pdf",
+    "size": 1536000,
+    "uploadDate": "2024-11-30T13:45:00Z",
+    "summary": "Market analysis comparing top 5 competitors on features, pricing, user experience, market share, and strategic positioning.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/competitive-analysis.pdf",
+    "resourceMode": "file"
+  },
+  {
+    "id": "d88a7cc6-ac4a-4f13-930e-cf259a1cc437",
+    "name": "incident-postmortem.md",
+    "size": 67584,
+    "uploadDate": "2024-12-01T10:20:00Z",
+    "summary": "Postmortem analysis of November 28 outage including root cause, timeline, impact assessment, and preventive measures.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/incident-postmortem.md",
+    "resourceMode": "url"
+  },
+  {
+    "id": "15bb3948-4b6b-421b-9841-e3f128e33679",
+    "name": "accessibility-guidelines.pdf",
+    "size": 409600,
+    "uploadDate": "2024-12-02T15:55:00Z",
+    "summary": "WCAG 2.1 AA compliance guidelines with implementation examples for keyboard navigation, screen readers, and color contrast.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/accessibility-guidelines.pdf",
+    "resourceMode": "file"
+  },
+  {
+    "id": "0e7a9288-790d-41e7-9679-282461262872",
+    "name": "data-migration-plan.docx",
+    "size": 122880,
+    "uploadDate": "2024-12-03T11:40:00Z",
+    "summary": "Legacy system migration strategy including data mapping, validation procedures, rollback plan, and cutover schedule.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/data-migration-plan.docx",
+    "resourceMode": "file"
+  },
+  {
+    "id": "874df725-56cb-4cfc-8953-26faed3106cb",
+    "name": "brand-guidelines.pdf",
+    "size": 5242880,
+    "uploadDate": "2024-12-04T14:10:00Z",
+    "summary": "Corporate brand identity guidelines covering logo usage, color palette, typography, imagery style, and tone of voice.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/brand-guidelines.pdf",
+    "resourceMode": "file"
+  },
+  {
+    "id": "a5208efa-dbab-4b34-a5a4-c76f75c00202",
+    "name": "integration-specs.json",
+    "size": 45056,
+    "uploadDate": "2024-12-05T09:30:00Z",
+    "summary": "Third-party API integration specifications for payment gateway, shipping providers, and analytics platforms.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/integration-specs.json",
+    "resourceMode": "url"
+  },
+  {
+    "id": "97ecd88a-a50a-45b8-8fcb-69aa64f29099",
+    "name": "training-materials.pdf",
+    "size": 2621440,
+    "uploadDate": "2024-12-06T16:20:00Z",
+    "summary": "Customer support training materials covering product knowledge, troubleshooting guides, escalation procedures, and communication best practices.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/training-materials.pdf",
+    "resourceMode": "file"
+  },
+  {
+    "id": "de9df6b9-da3b-4849-8231-ea1071f7ebda",
+    "name": "roadmap-2025.xlsx",
+    "size": 176128,
+    "uploadDate": "2024-12-07T10:50:00Z",
+    "summary": "Product roadmap for 2025 with quarterly milestones, feature priorities, resource allocation, and dependency tracking.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/roadmap-2025.xlsx",
+    "resourceMode": "file"
+  },
+  {
+    "id": "380aca18-fad5-4c92-9686-18a88fcb27f4",
+    "name": "sla-agreement.pdf",
+    "size": 256000,
+    "uploadDate": "2024-12-08T13:15:00Z",
+    "summary": "Service level agreement defining uptime guarantees, response times, support availability, and penalty clauses for enterprise clients.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/sla-agreement.pdf",
+    "resourceMode": "file"
+  },
+  {
+    "id": "cfe05bde-0563-4248-9be3-0a4ed600c415",
+    "name": "mobile-app-specs.md",
+    "size": 112640,
+    "uploadDate": "2024-12-09T15:40:00Z",
+    "summary": "Mobile application technical specifications for iOS and Android including offline mode, push notifications, and biometric authentication.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/mobile-app-specs.md",
+    "resourceMode": "url"
+  },
+  {
+    "id": "eb36b153-698b-41df-8544-8b395a920c21",
+    "name": "gdpr-compliance.docx",
+    "size": 184320,
+    "uploadDate": "2024-12-10T08:25:00Z",
+    "summary": "GDPR compliance documentation covering data collection, processing, storage, user rights, and consent management procedures.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/gdpr-compliance.docx",
+    "resourceMode": "file"
+  },
+  {
+    "id": "f2e4f9f7-fcd9-4494-9f49-2c82f0193947",
+    "name": "analytics-dashboard.pdf",
+    "size": 1228800,
+    "uploadDate": "2024-12-11T11:05:00Z",
+    "summary": "Business intelligence dashboard mockups showing user engagement metrics, conversion funnels, revenue analytics, and custom reports.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/analytics-dashboard.pdf",
+    "resourceMode": "file"
+  },
+  {
+    "id": "d61067db-4e48-4930-a37e-51a984ccf2b6",
+    "name": "disaster-recovery.md",
+    "size": 91136,
+    "uploadDate": "2024-12-12T14:30:00Z",
+    "summary": "Disaster recovery plan including backup strategies, failover procedures, recovery time objectives, and business continuity protocols.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/disaster-recovery.md",
+    "resourceMode": "url"
+  },
+  {
+    "id": "63b6a130-1169-487f-b22d-58b774fbea40",
+    "name": "payment-integration.pdf",
+    "size": 327680,
+    "uploadDate": "2024-12-13T09:15:00Z",
+    "summary": "Payment processing integration guide for Stripe, PayPal, and Apple Pay including webhook handling and refund workflows.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/payment-integration.pdf",
+    "resourceMode": "file"
+  },
+  {
+    "id": "2cf73598-c8b3-4315-917b-3c5f551f912d",
+    "name": "localization-guide.xlsx",
+    "size": 143360,
+    "uploadDate": "2024-12-14T16:00:00Z",
+    "summary": "Internationalization strategy supporting 12 languages with translation workflows, date/time formatting, and currency handling.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/localization-guide.xlsx",
+    "resourceMode": "file"
+  },
+  {
+    "id": "4618da35-6d2b-4a60-9b16-c3cad309416c",
+    "name": "email-templates.html",
+    "size": 56320,
+    "uploadDate": "2024-12-15T10:45:00Z",
+    "summary": "Responsive email templates for transactional messages including order confirmations, password resets, and promotional campaigns.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/email-templates.html",
+    "resourceMode": "url"
+  },
+  {
+    "id": "5c1fdc45-74e0-4d97-b640-bf887b8125e9",
+    "name": "capacity-planning.xlsx",
+    "size": 198656,
+    "uploadDate": "2024-12-16T13:20:00Z",
+    "summary": "Infrastructure capacity planning projections based on growth forecasts, peak traffic analysis, and resource optimization strategies.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/capacity-planning.xlsx",
+    "resourceMode": "file"
+  },
+  {
+    "id": "061fc984-ef36-4c43-bdcd-9c5dff5a3241",
+    "name": "user-personas.pdf",
+    "size": 921600,
+    "uploadDate": "2024-12-17T15:35:00Z",
+    "summary": "Detailed user personas representing key customer segments with demographics, behaviors, goals, pain points, and usage patterns.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/user-personas.pdf",
+    "resourceMode": "file"
+  },
+  {
+    "id": "50ad9ffd-7ea9-4a57-8dbc-c4aa0140dfcc",
+    "name": "changelog.md",
+    "size": 73728,
+    "uploadDate": "2024-12-18T11:10:00Z",
+    "summary": "Product changelog documenting all releases, new features, bug fixes, breaking changes, and deprecation notices since v1.0.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/changelog.md",
+    "resourceMode": "url"
+  },
+  {
+    "id": "d504d158-d295-4efb-a545-78e2ed0a87a2",
+    "name": "vendor-contracts.pdf",
+    "size": 614400,
+    "uploadDate": "2024-12-19T14:50:00Z",
+    "summary": "Cloud provider and SaaS vendor contracts including pricing terms, service guarantees, data ownership, and termination clauses.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/vendor-contracts.pdf",
+    "resourceMode": "file"
+  },
+  {
+    "id": "4ea63ef0-3929-4d53-9b4d-04b85c503c9d",
+    "name": "ab-test-results.csv",
+    "size": 102400,
+    "uploadDate": "2024-12-20T09:25:00Z",
+    "summary": "A/B testing results for homepage redesign showing conversion rate improvements, statistical significance, and user segment breakdowns.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/ab-test-results.csv",
+    "resourceMode": "url"
+  },
+  {
+    "id": "5fafb5f4-d3c9-4bff-851f-2fc648a41c24",
+    "name": "monitoring-setup.md",
+    "size": 81920,
+    "uploadDate": "2024-12-21T16:15:00Z",
+    "summary": "Application monitoring configuration using Datadog including custom metrics, log aggregation, alerting rules, and dashboard setup.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/monitoring-setup.md",
+    "resourceMode": "url"
+  },
+  {
+    "id": "b3db8e2d-29eb-4a9e-a682-1d5dfba01d99",
+    "name": "search-optimization.pdf",
+    "size": 453632,
+    "uploadDate": "2024-12-22T10:40:00Z",
+    "summary": "Search functionality improvements using Elasticsearch with relevance tuning, autocomplete, filters, facets, and performance benchmarks.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/search-optimization.pdf",
+    "resourceMode": "file"
+  },
+  {
+    "id": "5a2a8844-44b0-49a1-8bb4-c3b91374a324",
+    "name": "mobile-analytics.json",
+    "size": 94208,
+    "uploadDate": "2024-12-23T13:05:00Z",
+    "summary": "Mobile app analytics data showing user retention, session duration, feature adoption, crash reports, and device distribution.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/mobile-analytics.json",
+    "resourceMode": "url"
+  },
+  {
+    "id": "f77a3390-efcf-42fe-96c6-49f87edf7fce",
+    "name": "integration-testing.md",
+    "size": 65536,
+    "uploadDate": "2024-12-24T15:30:00Z",
+    "summary": "Integration test suite documentation covering API contracts, database transactions, external service mocks, and CI pipeline configuration.",
+    "url": "https://aiknowledgebase.blob.core.windows.net/context-files/integration-testing.md",
+    "resourceMode": "url"
+  }
+]

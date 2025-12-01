@@ -1,0 +1,16 @@
+<app-card [title]="item()?.name || ''">
+  <div class="flex flex-1 items-center justify-between">
+    <div class="flex flex-1 flex-col">
+      <div>
+        <b>Summary:</b>
+        {{ item()?.summary }}
+      </div>
+    </div>
+    <div>
+      <app-context-menu
+        [alignment]="'start'"
+        [menuItems]="menuItems"
+      ></app-context-menu>
+    </div>
+  </div>
+</app-card>

@@ -1,0 +1,28 @@
+<aside
+  class="flex flex-col p-4 flex-1 w-64 bg-dark h-full border-r border-gray-600 text-gray-300 mr-6"
+>
+  <!-- Header -->
+  <app-side-bar-header class="mr-2"></app-side-bar-header>
+
+  <!-- Navigation Tree -->
+  <nav class="flex-1 items-center overflow-y-auto py-2 mr-2">
+    <div>
+      <app-side-bar-button
+        [label]="'Dashboard'"
+        [icon]="faChartLine"
+        [route]="'/'"
+        [exact]="true"
+      ></app-side-bar-button>
+      <app-side-bar-button
+        [label]="'Context Files'"
+        [icon]="faFile"
+        [route]="'/context-files'"
+      ></app-side-bar-button>
+      <app-side-bar-button
+        [label]="'Configuration'"
+        [icon]="faCog"
+        [route]="'/configuration'"
+      ></app-side-bar-button>
+    </div>
+  </nav>
+</aside>
