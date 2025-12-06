@@ -10,7 +10,7 @@
 <ng-template #menu>
   <div
     cdkMenu
-    class="absolute py-3 px-2 top-full mt-1 text-gray-300 border border-bg-dark-border min-w-64 rounded-xl bg-dark-bg-secondary shadow-lg z-50 overflow-hidden animate-menu-in"
+    class="absolute py-3 px-2 top-full mt-1 text-gray-300 border border-bg-dark-border min-w-80 rounded-xl bg-dark-bg-secondary shadow-lg z-50 overflow-hidden animate-menu-in"
     [ngClass]="{
       '-left-48': alignment() === 'start',
       'left-4': alignment() === 'end',
@@ -23,7 +23,7 @@
         (click)="item.action()"
       >
         <fa-icon [icon]="item.icon" class="w-4 mr-2"></fa-icon>
-        {{ item.label }}
+        {{ item.label }} 
       </button>
     }
   </div>
